@@ -1,0 +1,84 @@
+<%- include("header.ejs") %>
+
+  <div class="container mt-5">
+    <div class="row text-center">
+
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Manage Users</h5>
+            <p class="card-text">View, edit, or delete user accounts.</p>
+            <a href="/admin/users" class="btn btn-primary">Go to Users</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Manage Bookings</h5>
+            <p class="card-text">View and update bookings.</p>
+            <a href="/admin/ongoingbook" class="btn btn-primary">Go to Bookings</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Manage Services</h5>
+            <p class="card-text">Add or update available services.</p>
+            <a href="/admin/services" class="btn btn-primary">Go to Services</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Manage Guest emails</h5>
+            <p class="card-text">Emails sent in ContactUs</p>
+            <a href="/admin/guestemails" class="btn btn-primary">View Emails  </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Manage Rooms</h5>
+            <p class="card-text">Update system preferences.</p>
+            <a href="/admins/rooms" class="btn btn-primary">Go to Rooms</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Manage Admins</h5>
+            <p class="card-text">Manage Admins Details</p>
+            <a href="/admins/admins" class="btn btn-primary">Go to Admins</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Manage chats -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Manage Chats</h5>
+            <p class="card-text">Reply for Messages</p>
+            <a href="/admin/chat" class="btn btn-primary">Go to Messages</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+<%- include("footer.ejs") %>

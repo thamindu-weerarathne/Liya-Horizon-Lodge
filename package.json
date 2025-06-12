@@ -1,0 +1,29 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon backend/index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.9.2",
+    "nodemailer": "^6.9.16",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "mocha": "^11.0.1",
+    "nodemon": "^3.1.9",
+    "sinon": "^19.0.2"
+  }
+}
